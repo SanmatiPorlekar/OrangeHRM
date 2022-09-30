@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test name="Test1">
+		<classes>
+			<class name="miniproject.Admin_Job" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<classes>
+			<class name="miniproject.Admin_Organization" />
+		</classes>
+	</test>
+	<test name="Test3">
+		<classes>
+			<class name="miniproject.Admin_Qualifi_nation" />
+		</classes>
+	</test>
+	<test name="Test4">
+		<classes>
+			<class name="miniproject.Admin_UserManagement" />
+		</classes>
+	</test>
+
+
+	<test name="Test5">
+		<classes>
+			<class name="miniproject.PIM_emplist_addemp" />
+		</classes>
+	</test>
+	<test name="Test6">
+		<classes>
+			<class name="miniproject.PIM_report" />
+		</classes>
+	</test>
+<!-- 
+<test name="Test7">
+		<classes>
+			<class name="miniproject.Leave_initialPart" />
+		</classes>
+	</test>
+-->
+	<test name="Test8">
+		<classes>
+			<class name="miniproject.assignleave" />
+		</classes>
+	</test>
+	<test name="Test9">
+		<classes>
+			<class name="miniproject.TImeModule" />
+		</classes>
+	</test>
+
+	<test name="Test10">
+		<classes>
+			<class name="miniproject.Requirepment" />
+		</classes>
+	</test>
+	<test name="Test11">
+		<classes>
+			<class name="miniproject.Myinfo7_1Personaldetails" />
+		</classes>
+	</test>
+
+
+	<test name="Test12">
+		<classes>
+			<class name="miniproject.Myinfo_contactdetail" />
+		</classes>
+	</test>
+	<test name="Test13">
+		<classes>
+			<class name="miniproject.Performance_7" />
+		</classes>
+	</test>
+
+	<test name="Test14">
+		<classes>
+			<class name="miniproject.Directory8" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
